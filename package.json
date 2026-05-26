@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "npm --prefix server run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:all": "npm install --package-lock=false && npm --prefix client install --include=dev --package-lock=false && npm --prefix server install --package-lock=false",
+    "build": "npm --prefix client install --include=dev --package-lock=false && npm --prefix client run build && npm --prefix server install --package-lock=false",
+    "start": "npm --prefix server start"
+  },
+  "devDependencies": {
+    "concurrently": "9.1.2"
+  }
+}
