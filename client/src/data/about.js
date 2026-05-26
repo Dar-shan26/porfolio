@@ -42,13 +42,13 @@ export const journey = [
     year: "Current Phase",
     title: "MERN Portfolio & Project Phase",
     description:
-      "Building a clean MERN portfolio and organizing planned full-stack projects with truthful progress status and practical product goals.",
+      "Focused on developing practical MERN stack projects with clear product goals, real progress status, and meaningful features that reflect my full-stack development skills.",
   },
   {
     year: "Next Step",
     title: "System Design",
     description:
-      "After completing the current MERN portfolio and project phase, the next learning goal is System Design for scalable and maintainable applications.",
+      "After completing my current MERN project phase, my next learning goal is System Design to build scalable, maintainable, and production-ready applications.",
   },
 ];
 
